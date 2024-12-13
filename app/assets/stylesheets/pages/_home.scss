@@ -7,4 +7,10 @@
 
 }
 
+input::placeholder {
+  color: #aaa; /* Couleur gris clair pour le placeholder */
+}
 
+input:focus::placeholder {
+  color: transparent; /* Rendre le placeholder invisible au focus (optionnel) */
+}
