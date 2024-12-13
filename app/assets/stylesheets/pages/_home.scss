@@ -14,3 +14,15 @@ input::placeholder {
 input:focus::placeholder {
   color: transparent; /* Rendre le placeholder invisible au focus (optionnel) */
 }
+
+.minia {
+  max-width: 40px;
+  max-height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20%;
+  aspect-ratio: 1/1;
+
+  margin-bottom: 0.7em;
+  margin-top: 0.7em;
+}
